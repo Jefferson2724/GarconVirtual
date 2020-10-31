@@ -92,7 +92,7 @@ def naoAlcool():
             print("---------------------------------------------")
  
  
-def CalcularBebidas():
+def calcularBebidas():
     global i
     global x
     global n
@@ -326,7 +326,7 @@ while True:
  
                     else:
                         while True:
-                            CalcularBebidas()
+                            calcularBebidas()
                             if n == 0:
                                 x +=1                                               # Vai para a proxima opção de cardapio
                             else:
